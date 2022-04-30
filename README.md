@@ -12,9 +12,9 @@ In this repository, I have shown examples of dependency injection in spring boot
     - **PrimaryBeanInjectedController.java** - In this spring component class, the greeting service has been initialized using the constructor as well. But in this class, We haven't used a @Qualifier annotation, so in runtime, the instance variable gets injected with PrimaryGreetingServiceImpl since it has been annotated with @Primary. @Primary allows us to set a default bean to be injeted in case a @Qualifier annotation is not used.
 
 ## Output on running SpringDiApplication.java
----Primary Bean---
-Hello from primary bean
----Setter Injected Bean---
-Hello from Setter method way of Dependency Injection
----Constructor Injected Bean---
+---Primary Bean---  
+Hello from primary bean  
+---Setter Injected Bean---  
+Hello from Setter method way of Dependency Injection  
+---Constructor Injected Bean---  
 Hello from Constructor way of Dependency Injection
